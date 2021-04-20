@@ -20,10 +20,10 @@ public class ItalianDishBuilder extends DishBuilder{
 
     @Override
     public void addParts() {
-        this.dish.addParts(new Dish("Pastas", "Pasta con sabor dulce", "", 18000, EnumSize.HALF) {
+        this.dish.addParts(new Dish("Pastas", "Pasta con sabor dulce", "", 34000, EnumSize.HALF) {
         });
 
-        this.dish.addParts(new Dish("Queso parmesano", "queso rayado", "", 7500, EnumSize.ALL) {
+        this.dish.addParts(new Dish("Queso parmesano", "queso rayado", "", 20000, EnumSize.ALL) {
         });
     }
 

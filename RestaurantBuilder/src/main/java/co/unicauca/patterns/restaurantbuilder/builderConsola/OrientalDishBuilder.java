@@ -21,11 +21,11 @@ public class OrientalDishBuilder extends DishBuilder{
 
     @Override
     public void addParts() {
-         this.dish.addParts(new Dish("Base de arroz", "Base de arroz para preparar arroz oriental", "", 10000, EnumSize.ALL) {
+         this.dish.addParts(new Dish("Base de arroz", "Base de arroz para preparar arroz oriental", "", 40000, EnumSize.ALL) {
         });
-        this.dish.addParts(new Dish("Soja", "Soja oriental", "", 4000, EnumSize.ALL) {
+        this.dish.addParts(new Dish("Soja", "Soja oriental", "", 5000, EnumSize.ALL) {
         });
-        this.dish.addParts(new Dish("Verduras orientales", "Verduras con sabor oriental", "", 13000, EnumSize.HALF) {
+        this.dish.addParts(new Dish("Verduras orientales", "Verduras con sabor oriental", "", 15000, EnumSize.HALF) {
         });
         this.dish.addParts(new Dish("Gambas", "Gambas orientales", "", 15000, EnumSize.ALL) {
         });
